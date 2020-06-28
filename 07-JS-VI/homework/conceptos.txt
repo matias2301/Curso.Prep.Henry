@@ -1,0 +1,3 @@
+* Funciones Callback
+	Básicamente un callback es una función dentro de otra función, es decir una función que se pasa como argumento de otra que se llama.
+	Por convención se utiliza "cb" para denominar la función que se pasa como argumento ( callback ).

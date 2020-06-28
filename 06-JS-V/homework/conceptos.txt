@@ -1,0 +1,35 @@
+* `prototype`
+	En Javascript casi todo es un objeto, y éste está basado en prototipos.
+	Prototype es una propiedad que tienen todos los objetos ( y que a su vez es un objeto ).
+	Tmabién puede tener otras propiedades ( funciones y métodos ), que pueden ser utilizadas por otros objetos para heredar sus propiedades, esto es muy útil para encapsular y reutilizar el código, esto te da la posibilidad de adaptar códigos al diseño orientado a objetos.
+
+"En lo que a herencia se refiere, JavaScript sólo tiene una estructura: objetos. Cada objeto tiene una propiedad privada (referida como su [[Prototype]]) que mantiene un enlace a otro objeto llamado su prototipo. Ese objeto prototipo tiene su propio prototipo, y así sucesivamente hasta que se alcanza un objeto cuyo prototipo es null. Por definición, null no tiene prototipo, y actúa como el enlace final de esta cadena de prototipos.
+
+Casi todos los objetos en JavaScript son instancias de Object que se sitúa a la cabeza de la cadena de prototipos.
+
+A pesar de que a menudo esto se considera como una de las principales debilidades de JavaScript, el modelo de herencia de prototipos es de hecho más potente que el modelo clásico"
+"Los objetos en JavaScript poseen un enlace a un objeto prototipo. Cuando intentamos acceder a una propiedad de un objeto, la propiedad no sólo se busca en el propio objeto sino también en el prototipo del objeto, en el prototipo del prototipo, y así sucesivamente hasta que se encuentre una propiedad que coincida con el nombre o se alcance el final de la cadena de prototipos."
+
+"JavaScript no tiene "métodos" en la forma que los lenguajes basados en clases los define. En JavaScript, cualquier función puede añadirse a un objeto como una propiedad. Una función heredada se comporta como cualquier otra propiedad, viéndose afectada por el solapamiento de propiedades como se muestra anteriormente (siendo, en este caso, una especie de redefinición de métodos).
+
+Cuando una función heredada se ejecuta, el valor de this apunta al objeto que hereda, no al prototipo en el que la función es una propiedad."
+
+"Es esencial entender el modelo de prototipado por instancias antes de escribir código complejo que hace uso de esto. También, sé consciente del largo de la cadena de prototipado en tu código y romperlo si es necesario para evitar posibles problemas de rendimiento. Adicionalmente, el prototipo nativo nunca debería ser extendido a menos que esto sea por motivo de compatibilidad con nuevas versiones de JavaScript."
+
+Entre comillas texto extraido de:
+https://developer.mozilla.org/es/docs/Web/JavaScript/Herencia_y_la_cadena_de_protipos#:~:text=prototype%20representa%20el%20prototipo%20del%20objeto%20Object%20.&text=Dar%20valor%20a%20una%20propiedad%20de%20un%20objeto%20crea%20una%20propiedad.
+
+, para entender mejor el tema.
+
+
+
+* _Constructors_ (de Clases)
+	Un constructor de Clases es como una plantilla ( un modelo ) con características y funcionalidades a partir del cual podemos crear objetos del mismo tipo al de la clase al que pertenece, personalizándolo con los valores propios del objeto nuevo que estamos creando. Por ejemplo, si tenemos una clase llamada Personas con algunas propiedades como pueden ser nombre, edad, luego podemos crear ( con esta plantilla ) un nuevo objeto de con los valores de la "nueva Persona" que queremos crear.
+
+//función constructora
+function Persona(nombre, edad) {
+    this.nombre = nombre;
+    this.edad = edad
+}
+
+const persona1 = new Gato('matias', '37');

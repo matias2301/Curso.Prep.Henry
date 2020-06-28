@@ -1,0 +1,28 @@
+* Objetos
+	Un objeto es un tipo de contenedor de datos/información para almacenar atributos o características de "algo".
+	En términos un poco más específicos y para que se entienda mejor, podríamos decir, por ejemplo, que tenemos un objeto llamado "usuarios" y entre llaves "{ }" almacenamos su nombre, edad, género e incluso podríamos almacenar una acción ( llamada método ) que realice el objeto "usuario", como por ejemplo "saludar".
+
+* Propiedades
+	Las propiedades se refiere a cada uno de los atributos o cualidades del objeto al que pertenecen.
+	Cada propiedad se representa por el par clave/valor. Ej: nombre: 'matias',
+	La propiedad nombre pertenece al objeto "usuario", por ejemplo, luego de la clave le siguen ":" y luego su valor seguido de ",".
+	En ella se pueden almacenar cualquier tipo de datos de los que ya conocemos.
+
+* Métodos
+	Los métodos son funciones dentro de un objeto. Podemos utilizar las propiedades que se encuentran en el mismo objeto que el método anteponiendo la palabra reservada "this".
+
+* Bucle `for…in`
+	Este bucle se utiliza para recorrer un objeto ( para obtener el valor de una propiedad, por ejemplo).
+	Se utiliza una variable en la declaración del bucle en donde se irá almacenando las claves de las propiedades del objeto y mediante la notación de clave o punto acceder al valor de cada clave.
+	Ejemplo del bucle:
+		for (let clave in usuario){
+    		console.log(clave);
+    		console.log(usuario[clave]);
+		}
+
+* Notación de puntos vs notación de corchetes
+	Para acceder a los valores de las claves dentro de los objetos podemos utilizar la notación de puntos o la notación de corchetes.
+	La sintaxis de la notación de puntos consiste en "nombre_del_objeto.nombre_de_la_clave".
+	La notación de corchetes es similar a la de un arreglo ( arreglo[posición] ). En este caso sería nombre_del_objeto[CLAVE].
+	En este caso CLAVE puede ser el nombre de la clave propiamente dicho, en este caso debe estar entre comillas. Su utilización es la misma que si usaramos la notación de punto.
+	En cambio si el valor de la clave lo tuviésemos almacenado en una variable, por ejemplo, CLAVE se utiliza sin comillas y es una utilización propia de la notación de corchetes.

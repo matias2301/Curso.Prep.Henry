@@ -1,0 +1,26 @@
+	* Variables
+		La memoria de una computadora esta dividida en espacios mucho mas pequeños. Una memoria es uno de esos espacios, reservados, para que un programa pueda almacenar un valor y poder utilizarlo más tarde. De la misma forma que nosotros almacenamos en nuestro cerebro un nombre una imagen, eso mismo hace un programa.
+		Luego dentro de una explicación básica se puede mencionar que las variables que clasifican por tipos, se llama tipificación ( esto es, variables numéricas, strings...se refiere a cadena de caracteres encerrados entre comillas "", variables booleanas...correspondientes a la lógica booleana...tema aparte, arreglos, etc...).
+
+	* Strings
+		Un string es un tipo de variable en programación. Como característica principal el valor que se almacene en este tipo de variables debe estar encerrado entre comillas "". Es decir, no importa qué caracteres esten dentro de una variable de tipo string, siempre y cuando esten encerrados entre comillas es condición suficiente para que se lo considere string. Por ejemplo: 123 es una variable numérica, pero "123" es considerado variable de tipo string. Lo mismo a = "", se considera que la variable "a" es de tipo string.
+
+	* Funciones (argumentos, `return`)
+		Las funciones son bloques de códigos ( un conjunto de líneas de código ) encargados de realizar una tarea específica, de una manera más ordenada y con la posibilidad de reutilizarse cada vez que las necesitemos sin necesidad de escribir todo nuevamente.
+		Identificamos a una función con la palabra reservada "function" luego le asignamos un nombre ( que sea representativo de la tarea que realiza ), luego se abre y cierra paréntesis "( )" y finalmente se abren y cierran llaves " { }".
+		Entre los paréntesis se colocan lo que llamamos argumentos. Estos son valores que le "pasamos a la función" desde el "programa principal" para que pueda realizar la tarea para la que fue creada.
+		Entre las llaves se escribe el código con de la función. Este puede o no retornar, devolver un valor o un mensaje, en caso que devuelva se utiliza otra palabra reservada "return" seguido de lo que queremos devolver.
+
+	* Declaraciones `if`
+		La sentencia "if" es una estructura de código que se utiliza como "control de flujo". Justamente la traducción de "if..." al español es "si...", y lo que hace es evaluar una condición que se escribe luego del "if", y dependiendo el resultado ( si la condición evaluada es cierta, o falsa ) deriva la ejecución del código hacia un lado u otro.
+
+	* Valores booleanos (`true`, `false`)
+		Los valores booleanos true (verdadero) y false (false) son aquellos que pueden tomar las variables booleanas en lo que corresponde a la lógica booleana o aritmética booleana.
+		También estos valores booleanos se suelen asignar a alguna variable de tipo "bool" para posteriormente utilizarla como "bandera", es decir, para poder evaluar una condición y "controlar el flujo" del programa (como se mencionó anteriormente).
+
+
+
+
+
+
+

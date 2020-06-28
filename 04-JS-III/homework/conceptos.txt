@@ -1,0 +1,12 @@
+	* Arrays
+		Un "array" ( o "arreglo" ) es una colección ordenada de elementos de un mismo tipo. Decimos ordenada porque cada elemento del arreglo ocupa una posición la cual es secuencial. Los tipos de datos que puede contener un array son cualquiera de los conocidos ( number , string, boolean, objetos).
+		Un "array" se define entre corchetes [ ]( brackets ).
+		Por ejemplo, podemos crear un array con nombres de países:
+
+			var paises = ["Argentina" , "Brasil", "", Uruguay","Chile","Paraguay"]
+
+		* utilizamos la palabra reservada "var" para declarar la variable.
+		* podemos observar que "paises" es una colección de "string" encerrados entre [ ], y cada uno de los elementos se separan por con una coma ",".
+		* decimos que es un array de string ya que como podemos ver cada uno de los elementos están entre comillas "".
+		* el primer elemento del array ( "Argentina" ) se encuentra en la posición 0; el segundo elemento ( "Brasil" ) está en la posición 1; en la posición 2 ( paises[2]) hay un string vacío, en la posición 3 ( paises[3]) se encuentra almacenado el string "Uruguay"; en paises[4] = "Chile" y el último elemento ( posición 5 ) corresponde a "Paraguay".
+

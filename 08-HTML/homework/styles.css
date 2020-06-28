@@ -1,0 +1,47 @@
+h1 {
+	color: #aadd11;
+}
+
+img {
+	width: 400px;
+}
+
+.divClass{
+  width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#thirdDiv {
+  margin: 20px auto;
+	height: 600px;
+  width: 500px;
+  background-color: #cccccc;
+  padding: 50px;
+  border: 1px solid black;
+}
+
+#spanId {
+  font-size: 18px;
+	/*margin: 50px;*/
+}
+
+#fotoFondo{
+  position:fixed;
+  width:100%;
+  height:100%;
+  z-index:-10;
+  background: url(https://static1.larioja.com/www/multimedia/202002/14/media/cortadas/cieloazul1-k1zG-U100155473657HzH-1968x1216@RC.jpg);
+  background-size: cover;
+}
+
+https://static1.larioja.com/www/multimedia/202002/14/media/cortadas/cieloazul1-k1zG-U100155473657HzH-1968x1216@RC.jpg
+
+/*=============================================
+=        ### Crédito adicional:
+>   Para hacer los extra credits, generalmente será necesario que investigue algunas cosas por su cuenta en Internet.
+
+  * Centrar todos los elementos en la página
+  * [Lea sobre el posicionamiento y use la regla de posición en sus estilos](https://es.learnlayout.com/index.html)
+  * Lea sobre flexbox y use flexbox para centrar todos los elementos en la página          =
+=============================================*/

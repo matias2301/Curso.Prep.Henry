@@ -1,0 +1,13 @@
+* `for`
+	El ciclo "for" es una estructura de repetición utilizada para ejecutar una misma instrucción o instrucciones una determinada cantidad de veces, definida por ciertas condiciones que se describen en su sintaxis.
+	La primera define un valor inicial a partir del cual iniciamos el ciclo, la segunda un valor final que nos detendrá la ejecución del mismo cuando llegue a dicho valor, y la tercera define una cantidad en la cual se incrementará ( o decrementará ) el valor inicial para llegar al valor final.
+	Estos tres elementos, en conjunto, determinaran la cantidad de ciclos que ejecutará el bucle "for".
+
+
+* `&&`, `||`, `!`
+	Para poder realizar las operaciones lógicas de la aritmética de Bool se necesitan de operadores lógicos.
+	El primero que veremos es el operador AND ( "Y" ), en programación usualmente se lo representa con dos signos ampersand ( && ). Devuelve una condición "falsa" si al menos uno de los operandos intervinientes es "falso". De igual manera podemos decir que para que devuelva una condición "verdadera" todos sus operandos deben ser verdadero.
+
+	El siguiente es el operador OR ( O ), se simboliza conmo " || ". Devuelve una condición verdadera si al menos uno de sus operandos es "verdadero". Para devolver una condición "falsa", todos sus operandos deben ser "falsos".
+
+	Por último tenemos el operador NOT ( NO ), simbolizado como ( ! ). Niega la condición del operando ( o resultado de una operación ) al que antecede. Es decir, si se antepone a un operando ( o resultado de una operación ) con condición "verdadera" el resultado final será "falso" y viceversa.
